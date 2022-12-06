@@ -1,0 +1,24 @@
+.navbar {
+    background-color: black;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+
+}
+
+.nav-link {
+    padding: 1rem;
+    color: white;
+
+}
+
+.nav-link:hover {
+    color: rgb(110, 99, 99);
+}

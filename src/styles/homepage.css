@@ -1,0 +1,22 @@
+.homeDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55rem;
+    background-image: url('../util/portrait.jpg');
+    flex-wrap: wrap;
+
+}
+
+.profile {
+    width: 20rem;
+    border: 1px solid black;
+}
+
+.summary {
+    font-size: 25px;
+    font-family: Andale Mono, monospace;
+    position: absolute;
+    top: 50%;
+    right: 1%;
+}

@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.links:hover {
+    color: rgb(110, 99, 99);
+}

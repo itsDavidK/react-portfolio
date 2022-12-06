@@ -1,0 +1,30 @@
+.projPic {
+    border: 5px solid black;
+    filter: grayscale(100%);
+}
+
+.projPic:hover {
+   filter: invert();
+}
+
+.allProj {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 55rem;
+    background-image: url('../util/portrait.jpg');
+    font-family: Andale Mono, monospace;
+    flex-wrap: wrap;
+}
+
+.indProj {
+    display: grid;
+    padding: 0.5rem;
+    text-align: center;
+    color: white;
+}
+
+
+img {
+    margin-bottom: .5rem;
+}
